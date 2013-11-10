@@ -30,7 +30,6 @@ function execQuery(query){
 
   $.get(url, function(data,status){
     console.log("GET status: "+status);
-    ipc = data;
     res = deserialize(ipcstr2arraybuffer(data));
     console.log(res);
     $("#result").text(JSON.stringify(res,null,4));
