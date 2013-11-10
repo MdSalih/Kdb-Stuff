@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    <title>Web IPC Parse Demo</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/c.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/ipcStrParse.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/demo.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css" media="all">
+      #hint, #hint a{
+        color:#CECECE;
+        font:8pt  monospace, sans-serif;
+      }
+      
+      #query {
+        width:500px;
+        font:10pt  monospace, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="query" value="metaData[]" /><button id="btnExecQuery" onclick="execInputQuery()">Execute</button>
+    <div id="hint">Example Queries:</div>
+    <pre id="result"></pre>
+  </body>
+</html>
