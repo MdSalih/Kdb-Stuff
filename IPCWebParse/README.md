@@ -6,7 +6,7 @@ Code demo of getting an IPC string from a Kdb+ process (through web interface) a
 ## Code Highlights
 
 ### Javascript
-Main javascript code is found in `www/js/ipcStrParse.js`:
+Main javascript code is found in [`www/js/ipcStrParse.js`](www/js/ipcStrParse.js):
 ```javascript
 function ipcstr2arraybuffer(str){
   var buffer = new ArrayBuffer(str.length/2);
@@ -18,7 +18,7 @@ function ipcstr2arraybuffer(str){
 };
 ```
 ### Q
-Demo Kdb+ webserver is provided in `webserver.js` - it handles returning query results in IPC format when query is of the form: `http://host:port/ipc?<query>`
+Demo Kdb+ webserver is provided in [`webserver.q`](webserver.q) - it handles returning query results in IPC format when query is of the form: `http://host:port/ipc?<query>`
 
 ## Usage
 
@@ -33,4 +33,4 @@ q)
 ```
 
 Browse to output URL to execute queries & see result printed in JSON:
-![Web browser demo](/demo.png)
+![Web browser demo](demo.png)
