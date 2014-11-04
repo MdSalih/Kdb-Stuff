@@ -9,4 +9,4 @@ Some code illustrating how to execute commands on a remote box via ssh from with
 ## [IPCWebParse](/IPCWebParse)
 Code demonstartion of parsing an IPC string in javscript
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/b945ae4ae9291cd7ff393e0add8386b0 "githalytics.com")](http://githalytics.com/MdSalih/Kdb-Stuff)
+[![Analytics](https://ga-beacon.appspot.com/UA-128743-9/Kdb-Stuff/README.md)](https://github.com/mdsalih/Kdb-Stuff)

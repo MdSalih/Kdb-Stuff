@@ -35,4 +35,4 @@ q)
 Browse to output URL to execute queries & see result printed in JSON:
 ![Web browser demo](demo.png)
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/b945ae4ae9291cd7ff393e0add8386b0 "githalytics.com")](http://githalytics.com/MdSalih/Kdb-Stuff)
+[![Analytics](https://ga-beacon.appspot.com/UA-128743-9/Kdb-Stuff/IPCWebParse/README.md)](https://github.com/MdSalih/Kdb-Stuff/tree/master/IPCWebParse)
